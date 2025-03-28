@@ -1,5 +1,5 @@
 const express = require("express")
-const { getAll, getOne, createOne, updateOne, deleteOne } = require("../controller/bookscontroller")
+const { getAll, getOne, createOne, updateOne, deleteOne } = require("../controller/books")
 
 const route = express.Router()
 
