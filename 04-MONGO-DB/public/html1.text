@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Your OTP Code</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f7;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+        }
+
+        .otp {
+            font-size: 32px;
+            font-weight: bold;
+            color: #2c3e50;
+            letter-spacing: 8px;
+            margin: 20px 0;
+        }
+
+        .footer {
+            font-size: 12px;
+            color: #888;
+            margin-top: 30px;
+        }
+
+        .logo {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://yourdomain.com/logo.png" alt="Company Logo" class="logo">
+        <h2>One-Time Password (OTP)</h2>
+<p>Hello,</p>
+<p>Use the following OTP to complete your action. This code is valid for the next 10 minutes:</p>
+
+<div class="otp">

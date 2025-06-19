@@ -3,32 +3,34 @@ const books = require('../module/books');
 
 const getAll = (req, res) => {
     res.json({
-        msg: "Get All Books" 
+        msg: "Get All of these Books" 
     })
 }
 
 const getOne = (req, res) => {
     res.json({
-        msg: "Get One Book"
+        msg: "Get only one Book"
     })
 }
 
 const createOne = (req, res) => {
     res.json({
-        mag: "Book Created"
+        msg: "Books can be Created"
     })
 }
 
 const updateOne = (req, res) => {
     res.json({
-        data: "Book Updated"
+        data: "Books has been Updated"
     })
 }
 
 const deleteOne = (req, res) => {
-    res.json({
-        data: "Book Deleted"
-    })
-}
 
-module.exports = { getAll,getOne,createOne,updateOne, deleteOne }
+    }
+    res.json({
+        data: "Books has been Deleted"
+    })
+
+
+module.exports = { getAll, getOne, createOne, updateOne, deleteOne }

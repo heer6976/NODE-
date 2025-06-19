@@ -5,7 +5,7 @@ const bookRoutes = require("./src/routes/books")
 const app = express()
 
 app.get("/", (req, res) => {
-    res.send("Server is running")
+    res.json("Crud Server is running")
 })
 app.use("/books", bookRoutes)
 
